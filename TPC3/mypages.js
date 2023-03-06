@@ -26,6 +26,7 @@ exports.genTop10Page= function(prof,data){
                 <th class="w3-hover-pink"><a href="http://localhost:7777/top10">Top 10 profissões</a></th>
             </tr>
             </table>
+            <table class="w3-table-all w3-hoverable">
                 <div class="container">
                 `
     const top = Object.keys(prof)
@@ -33,13 +34,15 @@ exports.genTop10Page= function(prof,data){
     .slice(0, 10);
     for(let i=0; i<top.length;i++){
         pagHTML+=`
-        <p>${i+1}: ${top[i]} <a href="http://localhost:7777/top10/${top[i]}">${prof[top[i]]}</a></p>
+        <tr class="w3-hover-deep-purple">
+        <th>${i+1}: ${top[i]} <a href="http://localhost:7777/top10/${top[i]}">${prof[top[i]]}</a></th>
+        </tr>
         `
     }
 
     pagHTML+= `
                 </div>
-                
+                </table>
                 <footer class="w3-container w3-deep-purple">
                     <h5>Generated in EngWeb2023 ${data}</h5>
                 </footer>
@@ -64,25 +67,28 @@ exports.genSportPage= function(desporto,data){
                 <header class="w3-container w3-deep-purple">
                     <h1>Distribuição por Desportos</h1>
                 </header>
-            <table class="w3-table-all w3-hoverable" ">
+            <table class="w3-table-all w3-hoverable">
             <tr class="w3-hover-deep-purple">
                 <th class="w3-hover-pink"> <a href="http://localhost:7777/pessoas">Página Inicial</a></th>
                 <th class="w3-hover-pink"><a href="http://localhost:7777/sexo">Distribuição por sexo</a></th>
                 <th class="w3-hover-pink"><a href="http://localhost:7777/desporto">Distribuiçaõ por desporto</a></th>
                 <th class="w3-hover-pink"><a href="http://localhost:7777/top10">Top 10 profissões</a></th>
             </tr>
-            </table>
-                <div class="container">
+            </table class="w3-table-all w3-hoverable">
+            <table class="w3-striped" style="width: 100%;>
+                
                 `
     Object.keys(desporto).forEach(key => {
         pagHTML+=`
-        <p>${key}: <a href="http://localhost:7777/desporto/${key}">${desporto[key]}</a></p>
+        <tr class="w3-hover-pink">
+        <th>${key}: </th> <th><a href="http://localhost:7777/desporto/${key}">${desporto[key]}</a></th>
+        </tr>
         `
     });
 
     pagHTML+= `
-                </div>
                 
+                </table>
                 <footer class="w3-container w3-deep-purple">
                     <h5>Generated in EngWeb2023 ${data}</h5>
                 </footer>
@@ -115,7 +121,7 @@ exports.genSexoPage = function(count, data){
                 <th class="w3-hover-pink"><a href="http://localhost:7777/top10">Top 10 profissões</a></th>
             </tr>
             </table>
-                <div class="container">
+                <div class="container w3-panel">
                     <p>Masculino: <a href="http://localhost:7777/sexo/masculino">${count.masculino}</a></p>
                     <p>Feminino : <a href="http://localhost:7777/sexo/feminino">${count.feminino}</a></p>
                     <p>Outro: <a href="http://localhost:7777/sexo/outro">${count.outro}</a></p>
