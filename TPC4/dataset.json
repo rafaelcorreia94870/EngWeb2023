@@ -1,0 +1,62 @@
+{
+    "users":[{
+        "id": "1",
+        "nome": "Rafa"
+    },
+    {
+        "id": "2",
+        "nome": "Xica"
+    },
+    {
+        "id": "3",
+        "nome": "Robert"
+    },
+    {
+        "id": "4",
+        "nome": "Joana"
+    },
+    {
+        "id": "5",
+        "nome": "Raposo"
+    },
+    {
+        "id": "6",
+        "nome": "Ze"
+    },
+    {
+        "id": "7",
+        "nome": "Ines"
+    },
+    {
+        "id": "8",
+        "nome": "Bernard"
+    }
+    ],
+    "tarefas":[{
+        "id": "1",
+        "nome": "fazer",
+        "data": "25-2-2001",
+        "pessoa": "1",
+        "des": "fazer bue da cenas",
+        "done": "True"
+    },
+    {
+        "id": "2",
+        "nome": "cinema",
+        "data": "26-11-2011",
+        "pessoa": "4",
+        "des": "ir ao cinema ver bue da cenas",
+        "done": "False"
+
+    },
+    {
+        "id": "3",
+        "nome": "lavar",
+        "data": "25-2-2001",
+        "pessoa": "2",
+        "des": "lavar bue da cenas pra limpar a casa",
+        "done": "False"
+    }
+    ]
+
+}
