@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nome": "Rafa"
+    },
+    {
+      "id": "2",
+      "nome": "Xica"
+    },
+    {
+      "id": "3",
+      "nome": "Robert"
+    },
+    {
+      "id": "4",
+      "nome": "Joana"
+    },
+    {
+      "id": "5",
+      "nome": "Raposo"
+    },
+    {
+      "id": "6",
+      "nome": "Ze"
+    },
+    {
+      "id": "7",
+      "nome": "Ines"
+    },
+    {
+      "id": "8",
+      "nome": "Bernard"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": "1",
+      "nome": "fazer",
+      "data": "25-2-2001",
+      "pessoa": "Rafa",
+      "des": "fazer bue da cenas",
+      "done": "True"
+    },
+    {
+      "nome": "Ir ao cinema",
+      "data": "26-11-2011",
+      "pessoa": "Xica",
+      "des": "Não Durmas lá",
+      "id": "2",
+      "done": "False"
+    },
+    {
+      "id": "3",
+      "nome": "lavar",
+      "data": "25-2-2001",
+      "pessoa": "Robert",
+      "des": "lavar bue da cenas pra limpar a casa",
+      "done": "False"
+    },
+    {
+      "nome": "Ir fazer CG",
+      "data": "08-03-2023",
+      "pessoa": "Joana",
+      "des": "Não te esqueças de fazer o relatório",
+      "id": "4",
+      "done": "False"
+    },
+    {
+      "nome": "Ir a aula de IPM",
+      "data": "10/03/2023",
+      "pessoa": "Rafael",
+      "des": "Tentar não adormecer",
+      "done": "True",
+      "id": "cb-Wvdk"
+    },
+    {
+      "nome": "Ajudar pe",
+      "data": "10/03/2023",
+      "pessoa": "Xica",
+      "des": "Ajudar o grupo da marta e da Ines",
+      "id": "dxiNdtI",
+      "done": "False"
+    },
+    {
+      "nome": "Ajudar pessoas a CG",
+      "data": "10/03/2023",
+      "pessoa": "Xica",
+      "des": "Ajudar o grupo da marta e da Ines",
+      "done": "False",
+      "id": "JHKIlMj"
+    }
+  ]
+}
