@@ -32,6 +32,7 @@ module.exports.getTarefa = (id) => {
 }
 
 module.exports.addTarefa = (tarefa) => {
+    tarefa.done="False"
     return axios.post('http://localhost:3000/tarefas/', tarefa)
             .then(resposta => {
                 return resposta.data
@@ -41,7 +42,19 @@ module.exports.addTarefa = (tarefa) => {
             })
 }
 
-module.exports.editTarefa = (tarefa) => {
+module.exports.saveTarefa = (tarefa) => {
+    return axios.put('http://localhost:3000/tarefas/'+tarefa.id, tarefa)
+            .then(resposta => {
+                return resposta.data
+            })
+            .catch(erro =>{
+                return erro
+            })
+}
+
+
+module.exports.doneTarefa = (tarefa) => {
+    tarefa.done="True"
     return axios.put('http://localhost:3000/tarefas/'+tarefa.id, tarefa)
             .then(resposta => {
                 return resposta.data

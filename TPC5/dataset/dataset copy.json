@@ -48,14 +48,14 @@
       "pessoa": "Xica",
       "des": "Não Durmas lá",
       "id": "2",
-      "done": "True"
+      "done": "False"
     },
     {
-      "nome": "lavalo",
+      "id": "3",
+      "nome": "lavar",
       "data": "25-2-2001",
       "pessoa": "Robert",
       "des": "lavar bue da cenas pra limpar a casa",
-      "id": "3",
       "done": "False"
     },
     {
@@ -89,22 +89,6 @@
       "des": "Ajudar o grupo da marta e da Ines",
       "done": "False",
       "id": "JHKIlMj"
-    },
-    {
-      "nome": "QUEIMADO",
-      "data": "HOJE",
-      "pessoa": "EU",
-      "des": "QUEIMAR TUDO",
-      "done": "False",
-      "id": "GNHaIzU"
-    },
-    {
-      "nome": "James Bond",
-      "data": "10/03/2023",
-      "pessoa": "Rafael",
-      "des": "Ajudar o grupo da marta e da Ines",
-      "done": "False",
-      "id": "GAhyO_3"
     }
   ]
 }
