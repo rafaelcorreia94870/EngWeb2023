@@ -25,13 +25,11 @@ router.get('/pessoas/:id', function(req, res, next) {
 
 
 router.post('/pessoas', function(req, res, next) {
-  console.log("ENTROU")
   pessoa.addpessoa(req.body).then(pessoa =>{
     console.log("json(pessoa)")
     res.json(pessoa);
   })
   .catch(erro=>{
-    console.log("ERROOOOOOOO")
     res.json(erro);
 
   })
