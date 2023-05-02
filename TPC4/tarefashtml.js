@@ -26,27 +26,26 @@ exports.tarefaPage = function(tarefas, editID){
             </div>
             <div clas="container">
                 <form class="w3-container" method="POST">
-
                     <fieldset>
                         <legend>Tarefa</legend>
                         <div style="display: flex;">
                             <label class="w3-padding">  Nome  </label>
                             <input class="w3-input w3-round" type="text" name="nome">
-                        <label class="w3-padding">  Data Limite  </label>
-                        <input class="w3-input w3-round" type="text" name="data">
-                        <label class="w3-padding">  Quem a Faz  </label>
-                        <input class="w3-input w3-round" type="text" name="pessoa">
-                    </div>
-                    <div>
-                        <label>Descrição</label>
-                        <input class="w3-input w3-round" type="text" name="des">
-                    </div>
+                            <label class="w3-padding">  Data Limite  </label>
+                            <input class="w3-input w3-round" type="text" name="data">
+                            <label class="w3-padding">  Quem a Faz  </label>
+                            <input class="w3-input w3-round" type="text" name="pessoa">
+                        </div>
+                        <div>
+                            <label>Descrição</label>
+                            <input class="w3-input w3-round" type="text" name="des">
+                        </div>
                     
-                </fieldset>
-                <div class="w3-padding-small w3-right w3-left-margin">
-                    <button class="w3-btn w3-teal w3-mb-2 w3-round-large" type="submit">Submit</button>
-                </div>
-            </form>
+                    </fieldset>
+                    <div class="w3-padding-small w3-right w3-left-margin">
+                        <button class="w3-btn w3-teal w3-mb-2 w3-round-large" type="submit">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
         <div class="w3-row-padding  w3-padding w3-card-4" name="content">   
